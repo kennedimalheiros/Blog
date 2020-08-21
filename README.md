@@ -18,7 +18,7 @@ user = requests.post(url, data=params)
 
 - Retorno:
        
-```json   
+```json5
 {'id': 1, 'last_name': '', 'email': 'teste-api1@teste.com', 'phone': None, 'avatar': None, 'first_name': None}
 ```
 
@@ -53,7 +53,7 @@ token = requests.post(url, data=credenciais)
 
 - Retorno:
 
-```json
+```json5
 {
     "token": "a5980ebd7a9a4255fd5c7ff09db61e79db28a0f9"
 }
@@ -77,7 +77,7 @@ postagem = requests.post(url, data=params, headers=headers)
 
 - Retorno:
 
-```json
+```json5
 {
     'id': 2, 
     'title': 'What is Lorem Ipsum?', 
@@ -107,7 +107,7 @@ postagem = requests.put(url, data=params, headers=headers)
 
 - Retorno:
 
-```json
+```json5
 {
     'id': 2, 
     'title': 'Why do we use it?', 
@@ -131,7 +131,7 @@ postagem = requests.get(url, headers=headers)
 
 - Retorno:
 
-```json
+```json5
 [   
     {
         'id': 2, 
