@@ -1,3 +1,8 @@
+- Os testes foram implementados para as rotinas a seguir.
+```python  
+python manage.py test
+```
+
 ### Rota para registro de usuário;
 
 Campos requeridos: `email, password, password_confirm`
